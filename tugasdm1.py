@@ -267,7 +267,7 @@ with modeling:
 
 with implementation:
     st.write("# Implementation")
-    Age = st.number_input('Masukkan data')
+    number = st.number_input('Masukkan data')
 
     # GENDER
     gender = st.radio("Gender",('Male', 'Female', 'Other'))
